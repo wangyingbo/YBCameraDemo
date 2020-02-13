@@ -1,0 +1,6 @@
+framework module Pods_YBCameraDemo_YBCameraDemoUITests {
+  umbrella header "Pods-YBCameraDemo-YBCameraDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

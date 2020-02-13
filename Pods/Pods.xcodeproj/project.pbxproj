@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223989AA177C6E5BFFC9AE7E0E46CC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		255B4F59607A7290E2FD9C47ADB0FA5E /* Pods-YBCameraDemo-YBCameraDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C467C1918B7266BF37C68DB5A89458C /* Pods-YBCameraDemo-YBCameraDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0F99C89F89474E08EB864BAD7AA577 /* Pods-YBCameraDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAFE199C3A4EB7A1FD56E9BD14910CE /* Pods-YBCameraDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		922E62DA1ADA2500222C10A613F26090 /* Pods-YBCameraDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B9255619829325F69B39023E71C22 /* Pods-YBCameraDemoTests-dummy.m */; };
+		9B350A199538E5DE294855A384CD1963 /* Pods-YBCameraDemo-YBCameraDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA240ABD77410AEA5E7C6EB34AFB2F /* Pods-YBCameraDemo-YBCameraDemoUITests-dummy.m */; };
+		9BF995E6E4B562C9907E6CD83D71CC42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A31080AB017481B4862490ABF946672D /* Pods-YBCameraDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC24AE47CA6EB993AD713FDBB9250293 /* Pods-YBCameraDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60672BFC7A7505AB417C1A2EBB0F999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C965993BA130AE0A4ED07D1688D03320 /* Pods-YBCameraDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F87BABEB3203AACF6E493F288B9BAD /* Pods-YBCameraDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCF7BF2671D1AFD3AA8A1FCC87A1C73E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BD346B7454ACBA1E7073A45118817D;
+			remoteInfo = "Pods-YBCameraDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A9E4B6FBFBAA5525F0066FD8334EDE /* Pods-YBCameraDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBCameraDemo-Info.plist"; sourceTree = "<group>"; };
+		0AAFE199C3A4EB7A1FD56E9BD14910CE /* Pods-YBCameraDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBCameraDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		0EB9D42265B903C843948303037E4D98 /* Pods_YBCameraDemo_YBCameraDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YBCameraDemo_YBCameraDemoUITests.framework; path = "Pods-YBCameraDemo-YBCameraDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104D400C2D179A50B9EF5C799C99937A /* Pods-YBCameraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBCameraDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1288E5664D6F4201C2DB1A2D76732BC9 /* Pods-YBCameraDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBCameraDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1815B0C3C1FAEE19A6A201C60E399D7B /* Pods-YBCameraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBCameraDemo.release.xcconfig"; sourceTree = "<group>"; };
+		184B9255619829325F69B39023E71C22 /* Pods-YBCameraDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBCameraDemoTests-dummy.m"; sourceTree = "<group>"; };
+		22031E8AC73D17FCC8420C8B1A24F336 /* Pods-YBCameraDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBCameraDemoTests.modulemap"; sourceTree = "<group>"; };
+		2A73158FFF1123E071447E710F37A7D1 /* Pods_YBCameraDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YBCameraDemoTests.framework; path = "Pods-YBCameraDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4AD42C1FE8038CE162495CD06E1D8F /* Pods-YBCameraDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBCameraDemoTests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C467C1918B7266BF37C68DB5A89458C /* Pods-YBCameraDemo-YBCameraDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBCameraDemo-YBCameraDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		416D5D5125BC849D2C52DE3FB815FE4F /* Pods-YBCameraDemo-YBCameraDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBCameraDemo-YBCameraDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		50AA240ABD77410AEA5E7C6EB34AFB2F /* Pods-YBCameraDemo-YBCameraDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBCameraDemo-YBCameraDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		7087BCC736B3160AD0089C0F6ADAAEF3 /* Pods-YBCameraDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBCameraDemo.modulemap"; sourceTree = "<group>"; };
+		7D4A1D25285F8D2D37C9169A29DCDE0F /* Pods-YBCameraDemo-YBCameraDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBCameraDemo-YBCameraDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9549B5A0154D020D40007173F405EBF5 /* Pods-YBCameraDemo-YBCameraDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBCameraDemo-YBCameraDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA2126269247B4F826997FD34DE950E /* Pods-YBCameraDemo-YBCameraDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBCameraDemo-YBCameraDemoUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEBF708A35E375B615307840082F50E8 /* Pods-YBCameraDemo-YBCameraDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBCameraDemo-YBCameraDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		B45022D800D9BEE886341960E14DB927 /* Pods-YBCameraDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBCameraDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B867D77B12F3DE3492AA403F05F64EE3 /* Pods_YBCameraDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YBCameraDemo.framework; path = "Pods-YBCameraDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC24AE47CA6EB993AD713FDBB9250293 /* Pods-YBCameraDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBCameraDemo-umbrella.h"; sourceTree = "<group>"; };
+		D35E954B66B7C8EF3CE51B43ADD67F11 /* Pods-YBCameraDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBCameraDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1DD8486EB67AE8726E475FA1A144240 /* Pods-YBCameraDemo-YBCameraDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBCameraDemo-YBCameraDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7F87BABEB3203AACF6E493F288B9BAD /* Pods-YBCameraDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBCameraDemo-dummy.m"; sourceTree = "<group>"; };
+		E850B466D70035A9273C50996F3E34EE /* Pods-YBCameraDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBCameraDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2618FF3FB8C25A1784CE73A901CFF0A /* Pods-YBCameraDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBCameraDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC6581A4BB20460467DF06B4A8FC2C6B /* Pods-YBCameraDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBCameraDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A286128A9FBDD1159244E77A1EEFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60672BFC7A7505AB417C1A2EBB0F999 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA71B5DFA029B4F3BDC21035C734D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF995E6E4B562C9907E6CD83D71CC42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9791C73C4C50FDEB902AE50D237EB67B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223989AA177C6E5BFFC9AE7E0E46CC55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0578A17D0030268F94C53F9E97E55EDF /* Pods-YBCameraDemo-YBCameraDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2126269247B4F826997FD34DE950E /* Pods-YBCameraDemo-YBCameraDemoUITests.modulemap */,
+				7D4A1D25285F8D2D37C9169A29DCDE0F /* Pods-YBCameraDemo-YBCameraDemoUITests-acknowledgements.markdown */,
+				416D5D5125BC849D2C52DE3FB815FE4F /* Pods-YBCameraDemo-YBCameraDemoUITests-acknowledgements.plist */,
+				50AA240ABD77410AEA5E7C6EB34AFB2F /* Pods-YBCameraDemo-YBCameraDemoUITests-dummy.m */,
+				AEBF708A35E375B615307840082F50E8 /* Pods-YBCameraDemo-YBCameraDemoUITests-Info.plist */,
+				3C467C1918B7266BF37C68DB5A89458C /* Pods-YBCameraDemo-YBCameraDemoUITests-umbrella.h */,
+				9549B5A0154D020D40007173F405EBF5 /* Pods-YBCameraDemo-YBCameraDemoUITests.debug.xcconfig */,
+				E1DD8486EB67AE8726E475FA1A144240 /* Pods-YBCameraDemo-YBCameraDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-YBCameraDemo-YBCameraDemoUITests";
+			path = "Target Support Files/Pods-YBCameraDemo-YBCameraDemoUITests";
+			sourceTree = "<group>";
+		};
+		4703092DA04A71693CD05E7A6AE19019 /* Pods-YBCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7087BCC736B3160AD0089C0F6ADAAEF3 /* Pods-YBCameraDemo.modulemap */,
+				B45022D800D9BEE886341960E14DB927 /* Pods-YBCameraDemo-acknowledgements.markdown */,
+				1288E5664D6F4201C2DB1A2D76732BC9 /* Pods-YBCameraDemo-acknowledgements.plist */,
+				E7F87BABEB3203AACF6E493F288B9BAD /* Pods-YBCameraDemo-dummy.m */,
+				01A9E4B6FBFBAA5525F0066FD8334EDE /* Pods-YBCameraDemo-Info.plist */,
+				BC24AE47CA6EB993AD713FDBB9250293 /* Pods-YBCameraDemo-umbrella.h */,
+				104D400C2D179A50B9EF5C799C99937A /* Pods-YBCameraDemo.debug.xcconfig */,
+				1815B0C3C1FAEE19A6A201C60E399D7B /* Pods-YBCameraDemo.release.xcconfig */,
+			);
+			name = "Pods-YBCameraDemo";
+			path = "Target Support Files/Pods-YBCameraDemo";
+			sourceTree = "<group>";
+		};
+		8F7917A581DE912438A613716E5BBCBD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4703092DA04A71693CD05E7A6AE19019 /* Pods-YBCameraDemo */,
+				0578A17D0030268F94C53F9E97E55EDF /* Pods-YBCameraDemo-YBCameraDemoUITests */,
+				DA59AF280107835EF7FCD10678AB40E7 /* Pods-YBCameraDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4B35DCCD6FFCEA61C6827E6B1731CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B867D77B12F3DE3492AA403F05F64EE3 /* Pods_YBCameraDemo.framework */,
+				0EB9D42265B903C843948303037E4D98 /* Pods_YBCameraDemo_YBCameraDemoUITests.framework */,
+				2A73158FFF1123E071447E710F37A7D1 /* Pods_YBCameraDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B4B35DCCD6FFCEA61C6827E6B1731CA8 /* Products */,
+				8F7917A581DE912438A613716E5BBCBD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA59AF280107835EF7FCD10678AB40E7 /* Pods-YBCameraDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				22031E8AC73D17FCC8420C8B1A24F336 /* Pods-YBCameraDemoTests.modulemap */,
+				E850B466D70035A9273C50996F3E34EE /* Pods-YBCameraDemoTests-acknowledgements.markdown */,
+				F2618FF3FB8C25A1784CE73A901CFF0A /* Pods-YBCameraDemoTests-acknowledgements.plist */,
+				184B9255619829325F69B39023E71C22 /* Pods-YBCameraDemoTests-dummy.m */,
+				2E4AD42C1FE8038CE162495CD06E1D8F /* Pods-YBCameraDemoTests-Info.plist */,
+				0AAFE199C3A4EB7A1FD56E9BD14910CE /* Pods-YBCameraDemoTests-umbrella.h */,
+				FC6581A4BB20460467DF06B4A8FC2C6B /* Pods-YBCameraDemoTests.debug.xcconfig */,
+				D35E954B66B7C8EF3CE51B43ADD67F11 /* Pods-YBCameraDemoTests.release.xcconfig */,
+			);
+			name = "Pods-YBCameraDemoTests";
+			path = "Target Support Files/Pods-YBCameraDemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		571EFF1AEBEC633794E584DC09A553B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31080AB017481B4862490ABF946672D /* Pods-YBCameraDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0A8DEA61E6C246182E67591350B688 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255B4F59607A7290E2FD9C47ADB0FA5E /* Pods-YBCameraDemo-YBCameraDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8887D756B361C5AA0727322B7D590A03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F99C89F89474E08EB864BAD7AA577 /* Pods-YBCameraDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24E5416AE7C8AB6EDBC2DA5E0D77FD14 /* Pods-YBCameraDemo-YBCameraDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BBD865A6C0EA69AB59AB83E4EF9C19 /* Build configuration list for PBXNativeTarget "Pods-YBCameraDemo-YBCameraDemoUITests" */;
+			buildPhases = (
+				6D0A8DEA61E6C246182E67591350B688 /* Headers */,
+				BC3E2CB859095E198E6BB22A03D98B20 /* Sources */,
+				6EA71B5DFA029B4F3BDC21035C734D78 /* Frameworks */,
+				9715AD7E4D0FC70CC1E45F1C2A2D7CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YBCameraDemo-YBCameraDemoUITests";
+			productName = "Pods-YBCameraDemo-YBCameraDemoUITests";
+			productReference = 0EB9D42265B903C843948303037E4D98 /* Pods_YBCameraDemo_YBCameraDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E58E11554F249BE0F914458D2F99BC8 /* Pods-YBCameraDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0B929DCA8FE0ABA30EF10104199514 /* Build configuration list for PBXNativeTarget "Pods-YBCameraDemoTests" */;
+			buildPhases = (
+				8887D756B361C5AA0727322B7D590A03 /* Headers */,
+				618C1C3410F2353A2EB2F0AB6FB3D662 /* Sources */,
+				50A286128A9FBDD1159244E77A1EEFAF /* Frameworks */,
+				36894C9592E0222EC6B1C4B607574755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D22E7B88274AB6F903878737BE7921C /* PBXTargetDependency */,
+			);
+			name = "Pods-YBCameraDemoTests";
+			productName = "Pods-YBCameraDemoTests";
+			productReference = 2A73158FFF1123E071447E710F37A7D1 /* Pods_YBCameraDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87BD346B7454ACBA1E7073A45118817D /* Pods-YBCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDE2B92158BBC46D63DB65FE2400EFB /* Build configuration list for PBXNativeTarget "Pods-YBCameraDemo" */;
+			buildPhases = (
+				571EFF1AEBEC633794E584DC09A553B1 /* Headers */,
+				450108D153830A5EA2971016DE6311AD /* Sources */,
+				9791C73C4C50FDEB902AE50D237EB67B /* Frameworks */,
+				208FF57F3BAD5F66477A5B87C699B12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YBCameraDemo";
+			productName = "Pods-YBCameraDemo";
+			productReference = B867D77B12F3DE3492AA403F05F64EE3 /* Pods_YBCameraDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B4B35DCCD6FFCEA61C6827E6B1731CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87BD346B7454ACBA1E7073A45118817D /* Pods-YBCameraDemo */,
+				24E5416AE7C8AB6EDBC2DA5E0D77FD14 /* Pods-YBCameraDemo-YBCameraDemoUITests */,
+				6E58E11554F249BE0F914458D2F99BC8 /* Pods-YBCameraDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		208FF57F3BAD5F66477A5B87C699B12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36894C9592E0222EC6B1C4B607574755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9715AD7E4D0FC70CC1E45F1C2A2D7CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450108D153830A5EA2971016DE6311AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C965993BA130AE0A4ED07D1688D03320 /* Pods-YBCameraDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618C1C3410F2353A2EB2F0AB6FB3D662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922E62DA1ADA2500222C10A613F26090 /* Pods-YBCameraDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3E2CB859095E198E6BB22A03D98B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B350A199538E5DE294855A384CD1963 /* Pods-YBCameraDemo-YBCameraDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D22E7B88274AB6F903878737BE7921C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YBCameraDemo";
+			target = 87BD346B7454ACBA1E7073A45118817D /* Pods-YBCameraDemo */;
+			targetProxy = FCF7BF2671D1AFD3AA8A1FCC87A1C73E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C65581AF81D49652F8293C48DFB83BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9549B5A0154D020D40007173F405EBF5 /* Pods-YBCameraDemo-YBCameraDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBCameraDemo-YBCameraDemoUITests/Pods-YBCameraDemo-YBCameraDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBCameraDemo-YBCameraDemoUITests/Pods-YBCameraDemo-YBCameraDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43C2E935825C1128B06C8A1B782033EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1815B0C3C1FAEE19A6A201C60E399D7B /* Pods-YBCameraDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBCameraDemo/Pods-YBCameraDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBCameraDemo/Pods-YBCameraDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		567CA715F1C1D9219D305EB7E9986769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104D400C2D179A50B9EF5C799C99937A /* Pods-YBCameraDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBCameraDemo/Pods-YBCameraDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBCameraDemo/Pods-YBCameraDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		94B8FE3E780ABCE41D82E0FCF0D8AD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35E954B66B7C8EF3CE51B43ADD67F11 /* Pods-YBCameraDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBCameraDemoTests/Pods-YBCameraDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBCameraDemoTests/Pods-YBCameraDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9659ECB5ADC6816F8FAF9165B8A00244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DD8486EB67AE8726E475FA1A144240 /* Pods-YBCameraDemo-YBCameraDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBCameraDemo-YBCameraDemoUITests/Pods-YBCameraDemo-YBCameraDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBCameraDemo-YBCameraDemoUITests/Pods-YBCameraDemo-YBCameraDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDBA8DB45328515304E7DC2334043ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6581A4BB20460467DF06B4A8FC2C6B /* Pods-YBCameraDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YBCameraDemoTests/Pods-YBCameraDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBCameraDemoTests/Pods-YBCameraDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BBD865A6C0EA69AB59AB83E4EF9C19 /* Build configuration list for PBXNativeTarget "Pods-YBCameraDemo-YBCameraDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C65581AF81D49652F8293C48DFB83BB /* Debug */,
+				9659ECB5ADC6816F8FAF9165B8A00244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0B929DCA8FE0ABA30EF10104199514 /* Build configuration list for PBXNativeTarget "Pods-YBCameraDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA8DB45328515304E7DC2334043ACF /* Debug */,
+				94B8FE3E780ABCE41D82E0FCF0D8AD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDE2B92158BBC46D63DB65FE2400EFB /* Build configuration list for PBXNativeTarget "Pods-YBCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567CA715F1C1D9219D305EB7E9986769 /* Debug */,
+				43C2E935825C1128B06C8A1B782033EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
