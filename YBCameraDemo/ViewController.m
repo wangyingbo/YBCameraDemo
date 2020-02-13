@@ -109,17 +109,21 @@ _Pragma("clang diagnostic pop")
     sender.tag = sender.tag%3;
     
     NSString *title = @"";
+    YBCaptureFlashMode mode = YBCaptureFlashModeOff;
     switch (sender.tag) {
         case 0: {
             title = @"闪光灯：关";
+            mode = YBCaptureFlashModeOff;
         }
             break;
         case 1: {
             title = @"闪光灯：开";
+            mode = YBCaptureFlashModeOn;
         }
             break;
         case 2: {
             title = @"闪光灯：自动";
+            mode = YBCaptureFlashModeAuto;
         }
             break;
             
@@ -128,7 +132,7 @@ _Pragma("clang diagnostic pop")
     }
     
     [sender setTitle:title forState:UIControlStateNormal];
-    [self.camera switchLight:(YBCaptureFlashMode)sender.tag];
+    [self.camera switchLight:mode];
 }
 
 - (void)orientAction:(UIButton *)sender {
