@@ -16,6 +16,8 @@
 		03E650A823F4F10D0022C09C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E650A723F4F10D0022C09C /* main.m */; };
 		03E650B223F4F10D0022C09C /* YBCameraDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E650B123F4F10D0022C09C /* YBCameraDemoTests.m */; };
 		03E650BD23F4F10D0022C09C /* YBCameraDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E650BC23F4F10D0022C09C /* YBCameraDemoUITests.m */; };
+		03E650CD23F4F4B70022C09C /* YBCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E650CC23F4F4B70022C09C /* YBCamera.m */; };
+		03E650D023F4F9920022C09C /* YBCameraResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E650CF23F4F9920022C09C /* YBCameraResultView.m */; };
 		169315E2F50C3BDAB08FFD14 /* Pods_YBCameraDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B202B205673153B7AA6FB9EE /* Pods_YBCameraDemo.framework */; };
 		869F0C6C29E701F5A6B8479C /* Pods_YBCameraDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119EC547E8BB7324C57932A7 /* Pods_YBCameraDemoTests.framework */; };
 		AB983F1931C0737E61B85A55 /* Pods_YBCameraDemo_YBCameraDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E58E46BFCA38B3034F13FC /* Pods_YBCameraDemo_YBCameraDemoUITests.framework */; };
@@ -57,6 +59,10 @@
 		03E650B823F4F10D0022C09C /* YBCameraDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBCameraDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E650BC23F4F10D0022C09C /* YBCameraDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBCameraDemoUITests.m; sourceTree = "<group>"; };
 		03E650BE23F4F10D0022C09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E650CB23F4F4B70022C09C /* YBCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBCamera.h; sourceTree = "<group>"; };
+		03E650CC23F4F4B70022C09C /* YBCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBCamera.m; sourceTree = "<group>"; };
+		03E650CE23F4F9920022C09C /* YBCameraResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBCameraResultView.h; sourceTree = "<group>"; };
+		03E650CF23F4F9920022C09C /* YBCameraResultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBCameraResultView.m; sourceTree = "<group>"; };
 		119EC547E8BB7324C57932A7 /* Pods_YBCameraDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBCameraDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF68EACF95174D7C6AE6F26 /* Pods-YBCameraDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBCameraDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-YBCameraDemoTests/Pods-YBCameraDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6400B7F6DD5689ED922DB315 /* Pods-YBCameraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBCameraDemo.release.xcconfig"; path = "Target Support Files/Pods-YBCameraDemo/Pods-YBCameraDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +127,7 @@
 		03E6509423F4F1090022C09C /* YBCameraDemo */ = {
 			isa = PBXGroup;
 			children = (
+				03E650CA23F4F3FF0022C09C /* YBCamera */,
 				03E6509523F4F1090022C09C /* AppDelegate.h */,
 				03E6509623F4F1090022C09C /* AppDelegate.m */,
 				03E6509823F4F1090022C09C /* SceneDelegate.h */,
@@ -154,6 +161,17 @@
 			path = YBCameraDemoUITests;
 			sourceTree = "<group>";
 		};
+		03E650CA23F4F3FF0022C09C /* YBCamera */ = {
+			isa = PBXGroup;
+			children = (
+				03E650CB23F4F4B70022C09C /* YBCamera.h */,
+				03E650CC23F4F4B70022C09C /* YBCamera.m */,
+				03E650CE23F4F9920022C09C /* YBCameraResultView.h */,
+				03E650CF23F4F9920022C09C /* YBCameraResultView.m */,
+			);
+			path = YBCamera;
+			sourceTree = "<group>";
+		};
 		8BB921D1B2C983ABF9B486C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +182,6 @@
 				3FF68EACF95174D7C6AE6F26 /* Pods-YBCameraDemoTests.debug.xcconfig */,
 				C5C3E7C50909E54BF2DA573F /* Pods-YBCameraDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -381,7 +398,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E6509D23F4F1090022C09C /* ViewController.m in Sources */,
+				03E650CD23F4F4B70022C09C /* YBCamera.m in Sources */,
 				03E6509723F4F1090022C09C /* AppDelegate.m in Sources */,
+				03E650D023F4F9920022C09C /* YBCameraResultView.m in Sources */,
 				03E650A823F4F10D0022C09C /* main.m in Sources */,
 				03E6509A23F4F1090022C09C /* SceneDelegate.m in Sources */,
 			);
