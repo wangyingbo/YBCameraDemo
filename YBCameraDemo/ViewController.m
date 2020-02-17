@@ -84,13 +84,22 @@ _Pragma("clang diagnostic pop")
     [orientButton addTarget:self action:@selector(orientAction:) forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (YBCameraResultView *)resultView {
+    if (!_resultView) {
+        YBCameraResultView *resultView = [[YBCameraResultView alloc] initWithFrame:self.view.bounds];
+        resultView.saved = YES;
+        resultView.saveToCustomAlbum = YES;
+        _resultView = resultView;
+    }
+    return _resultView;
+}
+
 #pragma mark - actions
 
 - (void)takePhotoAction:(UIButton *)sender {
     @weakify(self);
     [self.camera takePhoto:^(UIImage *img) {
         @strongify(self);
-        self.resultView = [[YBCameraResultView alloc] initWithFrame:self.view.bounds];
         self.resultView.imageView.image = img;
        
         @weakify(self);
@@ -98,7 +107,9 @@ _Pragma("clang diagnostic pop")
            @strongify(self);
            [self.camera restart];
         };
-        self.resultView.usePhotoBlock = ^(UIImage *img){
+        self.resultView.usePhotoBlock = ^(UIImage * _Nonnull img, NSError * _Nonnull error) {
+            @strongify(self);
+            [self.camera restart];
         };
         [self.view addSubview:self.resultView];
     }];
