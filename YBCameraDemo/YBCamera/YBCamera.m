@@ -508,7 +508,7 @@
         orignX = (self.effectiveRect.origin.y)/imageZoomRate + offsetH/2;
         
         //手机顶部朝右
-        if (image.imageOrientation == 1 || image.imageOrientation == 4) {
+        if (image.imageOrientation == UIImageOrientationDown || image.imageOrientation == UIImageOrientationUpMirrored) {
             offsetH = image.size.width-self.frame.size.height/imageZoomRate;
             offsetW = image.size.height-self.frame.size.width/imageZoomRate;
             orignY = (self.effectiveRect.origin.x)/imageZoomRate + offsetW/2;
@@ -521,6 +521,12 @@
     cutImageRect.origin.y = orignY;
     cutImageRect.size.width = self.effectiveRect.size.width/imageZoomRate;
     cutImageRect.size.height = self.effectiveRect.size.height/imageZoomRate;
+    
+    if (image.size.height > image.size.width) {//竖着拍
+    }else {
+        CGSize size = CGSizeMake(cutImageRect.size.height, cutImageRect.size.width);
+        cutImageRect.size = size;
+    }
     
     // 得到图片上下文，指定绘制范围
     UIGraphicsBeginImageContext(image.size);
